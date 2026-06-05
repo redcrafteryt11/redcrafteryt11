@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a0a14"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="200" fill="url(#bg)" rx="12"/>
+
+  <!-- Mountain silhouette -->
+  <polygon points="0,200 0,140 60,110 100,125 140,85 180,105 220,70 265,95 300,60 340,85 380,45 420,75 460,95 500,65 545,90 580,55 620,80 660,100 700,75 740,95 780,70 800,85 800,200" fill="#1a0814" opacity="0.7"/>
+  <polygon points="0,200 0,165 80,145 150,155 220,130 300,145 380,125 460,140 540,120 620,138 700,122 800,135 800,200" fill="#120810" opacity="0.8"/>
+
+  <!-- Branch -->
+  <path d="M 80 160 Q 140 120 200 90 Q 260 60 320 50" stroke="#6b3a2a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 200 90 Q 230 70 250 55" stroke="#6b3a2a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 160 108 Q 175 88 185 75" stroke="#6b3a2a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Blossoms -->
+  <g opacity="0.9">
+    <!-- blossom 1 -->
+    <g transform="translate(320,50)">
+      <ellipse cx="0" cy="-6" rx="5" ry="8" fill="#f4a0c0" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-6" rx="5" ry="8" fill="#f4a0c0" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-6" rx="5" ry="8" fill="#f4a0c0" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-6" rx="5" ry="8" fill="#f4a0c0" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-6" rx="5" ry="8" fill="#f4a0c0" transform="rotate(288)"/>
+      <circle cx="0" cy="0" r="3" fill="#f9d0e0"/>
+    </g>
+    <!-- blossom 2 -->
+    <g transform="translate(250,55)">
+      <ellipse cx="0" cy="-5" rx="4" ry="7" fill="#ed8fb5" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-5" rx="4" ry="7" fill="#ed8fb5" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-5" rx="4" ry="7" fill="#ed8fb5" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-5" rx="4" ry="7" fill="#ed8fb5" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-5" rx="4" ry="7" fill="#ed8fb5" transform="rotate(288)"/>
+      <circle cx="0" cy="0" r="2.5" fill="#f9d0e0"/>
+    </g>
+    <!-- blossom 3 -->
+    <g transform="translate(185,75)">
+      <ellipse cx="0" cy="-5" rx="4" ry="7" fill="#f4a0c0" transform="rotate(20)"/>
+      <ellipse cx="0" cy="-5" rx="4" ry="7" fill="#f4a0c0" transform="rotate(92)"/>
+      <ellipse cx="0" cy="-5" rx="4" ry="7" fill="#f4a0c0" transform="rotate(164)"/>
+      <ellipse cx="0" cy="-5" rx="4" ry="7" fill="#f4a0c0" transform="rotate(236)"/>
+      <ellipse cx="0" cy="-5" rx="4" ry="7" fill="#f4a0c0" transform="rotate(308)"/>
+      <circle cx="0" cy="0" r="2.5" fill="#f9d0e0"/>
+    </g>
+    <!-- blossom 4 small -->
+    <g transform="translate(290,72)">
+      <ellipse cx="0" cy="-4" rx="3" ry="5" fill="#f9c0d8" transform="rotate(10)"/>
+      <ellipse cx="0" cy="-4" rx="3" ry="5" fill="#f9c0d8" transform="rotate(82)"/>
+      <ellipse cx="0" cy="-4" rx="3" ry="5" fill="#f9c0d8" transform="rotate(154)"/>
+      <ellipse cx="0" cy="-4" rx="3" ry="5" fill="#f9c0d8" transform="rotate(226)"/>
+      <ellipse cx="0" cy="-4" rx="3" ry="5" fill="#f9c0d8" transform="rotate(298)"/>
+      <circle cx="0" cy="0" r="2" fill="#fde8f0"/>
+    </g>
+  </g>
+
+  <!-- Falling petals -->
+  <ellipse cx="420" cy="60" rx="4" ry="6" fill="#f4a0c0" opacity="0.6" transform="rotate(-20,420,60)"/>
+  <ellipse cx="480" cy="90" rx="3" ry="5" fill="#ed8fb5" opacity="0.5" transform="rotate(15,480,90)"/>
+  <ellipse cx="550" cy="50" rx="3" ry="4" fill="#f9c0d8" opacity="0.4" transform="rotate(-35,550,50)"/>
+  <ellipse cx="620" cy="80" rx="4" ry="6" fill="#f4a0c0" opacity="0.35" transform="rotate(25,620,80)"/>
+  <ellipse cx="700" cy="55" rx="3" ry="5" fill="#ed8fb5" opacity="0.3" transform="rotate(-10,700,55)"/>
+
+  <!-- Text -->
+  <text x="480" y="105" font-family="Georgia, serif" font-size="52" font-weight="300" fill="#e8e4f0" text-anchor="middle" letter-spacing="4">redxm</text>
+  <text x="480" y="135" font-family="Georgia, serif" font-size="14" fill="#f4a0c0" text-anchor="middle" letter-spacing="8" opacity="0.8">開発者 · DEVELOPER</text>
+  <text x="480" y="160" font-family="monospace" font-size="11" fill="#8a8499" text-anchor="middle" letter-spacing="3" opacity="0.7">Java · Python · Backend · Docker</text>
+
+  <!-- Subtle horizontal line -->
+  <line x1="360" y1="145" x2="600" y2="145" stroke="#f4a0c0" stroke-width="0.5" opacity="0.3"/>
+</svg>
